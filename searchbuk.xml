@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.bt.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:id="@+id/search_field"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_toStartOf="@+id/search_btn"
+        android:background="@drawable/search_layout"
+        android:ems="10"
+        android:fontFamily="@font/nunito_bold"
+        android:hint="Search here"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textColor="#999999"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/search_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/search_field"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/search_field"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@mipmap/search_button" />
+
+    <!-- <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="Recently Issued"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"/>
+
+
+    <HorizontalScrollView
+        android:id="@+id/scrollViewhorizontal1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+
+
+        <LinearLayout
+            android:minWidth="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </Space>
+
+            <ImageButton
+                android:id="@+id/image1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </Space>
+
+            <ImageButton
+                android:id="@+id/image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </Space>
+
+            <ImageButton
+                android:id="@+id/image3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </Space>
+
+            <ImageButton
+                android:id="@+id/image4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+-->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp"
+        android:text="Recommended For You "
+        android:textSize="20dp"
+        android:textColor="@android:color/black"/>
+
+
+    <HorizontalScrollView
+        android:id="@+id/scrollViewhorizontal2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp">
+
+
+        <LinearLayout
+            android:minWidth="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </Space>
+
+            <ImageButton
+                android:id="@+id/image5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </Space>
+            <ImageButton
+                android:id="@+id/image6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </Space>
+
+            <ImageButton
+                android:id="@+id/image7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </Space>
+
+            <ImageButton
+                android:id="@+id/image8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="315dp">
+
+        <TextView
+            android:id="@+id/textView01"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:textSize="10dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="40dp"/>
+
+        <TextView
+            android:id="@+id/textView02"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:textSize="10dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="45dp"/>
+
+        <TextView
+            android:id="@+id/textView03"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:textSize="10dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:id="@+id/textView04"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:textSize="10dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="55dp"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text=" All Time Bestsellers "
+        android:textSize="20dp"
+        android:textColor="@android:color/black"/>
+
+
+    <HorizontalScrollView
+        android:id="@+id/scrollViewhorizontal3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="485dp">
+
+
+        <LinearLayout
+            android:minWidth="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </Space>
+
+            <ImageButton
+                android:id="@+id/image9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               />
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </Space>
+
+            <ImageButton
+                android:id="@+id/image10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </Space>
+
+            <ImageButton
+                android:id="@+id/image11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </Space>
+
+            <ImageButton
+                android:id="@+id/image12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="565dp">
+
+        <TextView
+            android:id="@+id/textView05"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@android:color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/textView06"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="45dp"
+            android:textColor="@android:color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/textView07"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@android:color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/textView08"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="55dp"
+            android:textColor="@android:color/black"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>
